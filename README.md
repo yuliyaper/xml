@@ -32,13 +32,12 @@
 	                                                    <favorite_time_of_the_year>winter</favorite_time_of_the_year>
 	                                                    <the_country_you_would_like_to_visit>Switze</the_country_you_would_like_to_visit>
                                                             </info>
-                                                            нажать esp : wq
+                                                             нажать esp : wq
   
      Создать файл sklls.xml добавить информацию о            $touch skils.xml
      скиллах которые будут изучены на курсе                  $ vim skils.xml
      в формате xml                                           <info>
-	                                                     <studied_skills>basic testing theory,JSON,XML,API,
-															                               Posman,DeVTools,Fidler,SQL</studied_skills>
+	                                                     <studied_skills>basic testing theory,JSON,XML,API,						                                                                                      Posman,DeVTools,Fidler,SQL</studied_skills>
                                                              </info> 
 		
     Сделать коммит в одну строку.											 
@@ -55,6 +54,6 @@
     На веб интерфейсе модифицировать файл bug_report.xml,  Нажать на bug_report.xml
      добавить баг репорт в формате xml.                    Edit this file
      
-    Сделать Commit changes (сохранить) изменения на        Commit changes
+    Сделать Commit changes (сохранить) изменения на         Commit changes
      веб интерфейсе.                                         
     Синхронизировать внешний и локальный репозиторий xml    $ git pull
